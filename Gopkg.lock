@@ -8,6 +8,18 @@
   version = "v1.2.0"
 
 [[projects]]
+  name = "github.com/google/go-github"
+  packages = ["github"]
+  revision = "c3e9de61cf0678e682ea2b98cf1301ae3a814bc8"
+  version = "v18.1.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/google/go-querystring"
+  packages = ["query"]
+  revision = "53e6ce116135b80d037921a7fdd5138cf32d7a8a"
+
+[[projects]]
   branch = "master"
   name = "github.com/shurcooL/githubv4"
   packages = ["."]
@@ -64,6 +76,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ee0cbfc21474ada46e6a07584e2c4b6e0192673240817f9b59e02768688f71e5"
+  inputs-digest = "5a66cc91a69087d520140598e5376ccd0126c755ca1c33beb8d1418857d2acfa"
   solver-name = "gps-cdcl"
   solver-version = 1
