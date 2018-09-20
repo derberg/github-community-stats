@@ -10,20 +10,20 @@
 [[projects]]
   name = "github.com/google/go-github"
   packages = ["github"]
-  revision = "c3e9de61cf0678e682ea2b98cf1301ae3a814bc8"
-  version = "v18.1.0"
+  revision = "f55b50f38167644bb7e4be03d9a2bde71d435239"
+  version = "v18.2.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/google/go-querystring"
   packages = ["query"]
-  revision = "53e6ce116135b80d037921a7fdd5138cf32d7a8a"
+  revision = "44c6ddd0a2342c386950e880b658017258da92fc"
+  version = "v1.0.0"
 
 [[projects]]
   branch = "master"
   name = "github.com/shurcooL/githubv4"
   packages = ["."]
-  revision = "b5f70540eee0ebfb6a27b52fc5b131be76415539"
+  revision = "51d7b505e2e9434db74794b52222c13253209955"
 
 [[projects]]
   branch = "master"
@@ -39,7 +39,7 @@
     "ident",
     "internal/jsonutil"
   ]
-  revision = "365899397c9ad12805631fe4c9b2a64be9d74818"
+  revision = "e4a3a37e6d42afa87afee2edeeced52300b63893"
 
 [[projects]]
   branch = "master"
@@ -48,7 +48,7 @@
     "context",
     "context/ctxhttp"
   ]
-  revision = "161cd47e91fd58ac17490ef4d742dc98bb4cf60e"
+  revision = "49bb7cea24b1df9410e1712aa6433dae904ff66a"
 
 [[projects]]
   branch = "master"
@@ -57,7 +57,7 @@
     ".",
     "internal"
   ]
-  revision = "d2e6202438beef2727060aa7cabdd924d92ebfd9"
+  revision = "c57b0facaced709681d9f90397429b9430a74754"
 
 [[projects]]
   name = "google.golang.org/appengine"
@@ -70,8 +70,8 @@
     "internal/urlfetch",
     "urlfetch"
   ]
-  revision = "b1f26356af11148e710935ed1ac8a7f5702c7612"
-  version = "v1.1.0"
+  revision = "ae0ab99deb4dc413a2b4bd6c8bdd0eb67f1e4d06"
+  version = "v1.2.0"
 
 [solve-meta]
   analyzer-name = "dep"

@@ -12,7 +12,7 @@ dep ensure -vendor-only
 
 ### Run project
 
-GITHUB_ORG_ID=MDEyOk9yZ2FuaXphdGlvbjM5MTUzNTIz GITHUB_ORG=kyma-project GITHUB_REPO=kyma GITHUB_TOKEN={YOUR_TOKEN} gorun main.go
+GITHUB_ORG_ID=MDEyOk9yZ2FuaXphdGlvbjM5MTUzNTIz GITHUB_ORG=kyma-project GITHUB_REPO=kyma GITHUB_TOKEN={YOUR_TOKEN} go run main.go
 
 ## Current state of the project
 
